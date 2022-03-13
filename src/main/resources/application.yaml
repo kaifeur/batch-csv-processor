@@ -1,7 +1,9 @@
-input.file: classpath:data.zip
+input:
+  file: classpath:data.zip
+  date.patterns:
+    - MMMM d, yyyy
+    - dd/MM/yyyy
 
-output.file: merged.csv
-
-input.date.patterns:
-  - MMMM d, yyyy
-  - dd/MM/yyyy
+output:
+  file: merged.csv
+  date.pattern: dd/MM/yyyy

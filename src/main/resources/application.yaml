@@ -1,6 +1,6 @@
 input.file: classpath:data.zip
 
-output.file: /Users/rubtsov/output.csv
+output.file: merged.csv
 
 input.date.patterns:
   - MMMM d, yyyy

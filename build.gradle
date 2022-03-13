@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-batch:2.6.4'
+
     implementation 'org.slf4j:slf4j-api:1.7.36'
     runtimeOnly 'ch.qos.logback:logback-classic:1.2.11'
 
